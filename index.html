@@ -7,29 +7,120 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reto1</title>
     <link rel="stylesheet" href="./css/estilo.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+</head>
 </head>
 
 <body class="body">
     <header class="header">
         <nav class="header-nav">
             <div class="header-nav__container">
-                <a href="" class="header-nav__link-logo">
-                    <img src="" alt="" class="header-nav__link-logo-img" />
+                <a href="#" class="header-nav__link-logo">
+                    <img src="./img/logo6.jpg" alt="" class="header-nav__link-logo-img" />
                 </a>
+                <label for="headerNavMenuIcon" class="header-nav__menu-icon-label"><i class="bi bi-list"></i></label>
+                <input type="checkbox" id="headerNavMenuIcon" class="header-nav__menu-icon-checkbox" />
                 <ul class="header-nav__menu-list">
                     <li class="header-nav__menu-item">
-                        <a href="header-nav__menu-link">Peliculas</a>
+                        <a class="header-nav__menu-link" href="#main">Peliculas</a>
                     </li>
                     <li class="header-nav__menu-item">
-                        <a href="header-nav__menu-link">Nosotros</a>
+                        <a class="header-nav__menu-link" href="#about">Nosotros</a>
                     </li>
                     <li class="header-nav__menu-item">
-                        <a href="header-nav__menu-link">Contacto</a>
+                        <a class="header-nav__menu-link" href="#contact">Contacto</a>
                     </li>
                 </ul>
             </div>
         </nav>
     </header>
+
+    <main class="main" id="main">
+        <article class="article">
+            <div class="article-container">
+                <div class="article__card">
+                    <figure class="article-card__img-container">
+                        <img class="article-card__img"
+                            src="https://ww3.cuevana.pro/storage/17747/TT1VgTOdA6ALDNTg7pNvi9qQDOriq3FWzUmDGnxe.jpg"
+                            alt="">
+                    </figure>
+                    <h2 class="article-card__title">Animales Fantásticos 3: Los Secretos de Dumbledore</h2>
+                    <h3 class="article-card__gender">Aventura|Fantasia</h3>
+                    <p class="article-card__description">El profesor Albus Dumbledore sabe que el poderoso mago oscuro
+                        Gellert Grindelwald está haciendo planes para apoderarse del mundo mágico.
+                    </p>
+                </div>
+            </div>
+        </article>
+        <article class="article">
+            <div class="article-container">
+                <div class="article__card">
+                    <figure class="article-card__img-container">
+                        <img class="article-card__img"
+                            src="https://ww3.cuevana.pro/storage/17109/jm8JXQBfUtpSNvnerBQdKKEMjMPDfKo7zvtgr0FC.jpg"
+                            alt="">
+                    </figure>
+                    <h2 class="article-card__title">Sonic 2: La Película</h2>
+                    <h3 class="article-card__gender">Accion | Comedia</h3>
+                    <p class="article-card__description">Después de establecerse en Green Hills, Sonic se muere por
+                        demostrar que tiene madera de auténtico héroe, pero Robotnik regresa con nuevo compañero
+                        Knuckles, en busca de una esmeralda que tiene el poder de destruir civilizaciones, pero Sonic no
+                        esta solo lo ayudara Tails.
+
+
+                    </p>
+                </div>
+            </div>
+        </article>
+        <article class="article">
+            <div class="article-container">
+                <div class="article__card">
+                    <figure class="article-card__img-container">
+                        <img class="article-card__img"
+                            src="https://ww3.cuevana.pro/storage/17107/a8aNrnBIPW5P3ggq0kpJNpetz8F9L1D7wumZFzPB.jpg"
+                            alt="">
+                    </figure>
+                    <h2 class="article-card__title">Morbius</h2>
+                    <h3 class="article-card__gender">Accion | Terror</h3>
+                    <p class="article-card__description">Peligrosamente enfermo de un extraño trastorno sanguíneo, y
+                        determinado a salvar a otras personas que padecen su mismo destino, el doctor Morbius intenta
+                        una apuesta desesperada. Lo que en un principio parece ser un éxito radical, pronto se revela
+                        como un remedio potencialmente peor que la enfermedad.
+                    </p>
+                </div>
+            </div>
+        </article>
+
+
+        <section class="about" id="about">
+            <div class="about-container">
+                        <h2 class="about__title">Nosotros</h2>
+            <p class="about__description">Somos una pagina de películas y series online con la mayor cantidad de generos
+                posibles y al alcance de todos.
+                Semanalmente se agrega nuevo contenido para que los usuarios queden satisfechos con el servicio.
+            </p>
+        </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <div class="contact-container">
+                <h2 class="contact__title">Contacto</h2>
+                <form action="" class="contact__form">
+
+                    <input type="text" placeholder="Nombre" class="contact__form-input" />
+
+                    <input type="text" placeholder="Telefono" class="contact__form-input" />
+                    <textarea name="" id="" placeholder="Mensaje" class="contact__form-input"></textarea>
+                    <input type="submit" value="Enviar" class="contact__form-button" />
+                </form>
+            </div>
+        </section>
+    </main>
+
+
+
+
 
 </body>
 
