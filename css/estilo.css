@@ -254,7 +254,11 @@ margin: 0;
 
 
 
-
+@media(max-width:853px){
+    .header-nav__menu-link{
+        font-size: 30px;
+    }
+}
   
   @media (min-width: 854px) {
     :root{
@@ -273,5 +277,6 @@ margin: 0;
       list-style: none;
       background-color: transparent;
     }
+   
 
   }
